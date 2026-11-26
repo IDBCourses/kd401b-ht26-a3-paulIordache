@@ -1,0 +1,131 @@
+:root {
+    /* Font families */
+    --font-family-title: "Space Grotesk", sans-serif;
+    --font-family-body: "Inter", sans-serif;
+
+    /* Font weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* Font sizes */
+    --font-size-4xl: 48px;
+    --font-size-3xl: 40px;
+    --font-size-2xl: 32px;
+    --font-size-xl: 24px;
+    --font-size-lg: 20px;
+    --font-size-md: 18px;
+    --font-size-base: 16px;
+    --font-size-caption: 12px;
+
+    /* Line heights */
+    --line-height-48: 48px;
+    --line-height-40: 40px;
+    --line-height-32: 32px;
+    --line-height-24: 24px;
+    --line-height-16: 16px;
+
+    /* Dark Neutral */
+    --color-dark-neutral-100: hsl(240, 2.44%, 91.96%);
+    --color-dark-neutral-200: hsl(195, 2.33%, 66.27%);
+    --color-dark-neutral-300: hsl(204, 2.06%, 52.35%);
+    --color-dark-neutral-400: hsl(202.5, 4.94%, 31.76%);
+    --color-dark-neutral-500: hsl(200, 9.89%, 17.84%);
+    --color-dark-neutral-600: hsl(200, 9.38%, 12.55%);
+    --color-dark-neutral-700: hsl(200, 10.71%, 10.98%);
+
+    /* Tan Neutral */
+    --color-tan-neutral-100: hsl(60, 14.29%, 98.63%);
+    --color-tan-neutral-200: hsl(48, 18.52%, 94.71%);
+    --color-tan-neutral-300: hsl(45, 21.05%, 92.55%);
+    --color-tan-neutral-400: hsl(49.09, 20%, 89.22%);
+    --color-tan-neutral-500: hsl(47.14, 21.21%, 87.06%);
+    --color-tan-neutral-600: hsl(46.67, 4.52%, 60.98%);
+    --color-tan-neutral-700: hsl(46.67, 3.77%, 53.14%);
+
+    /* Purple */
+    --color-purple-100: hsl(240, 44%, 95.1%);
+    --color-purple-200: hsl(238.6, 41.75%, 79.8%);
+    --color-purple-300: hsl(238.06, 42.47%, 71.37%);
+    --color-purple-400: hsl(237.98, 42.58%, 59.02%);
+    --color-purple-500: hsl(238.32, 42.63%, 50.78%);
+    --color-purple-600: hsl(238.4, 41.44%, 35.49%);
+    --color-purple-700: hsl(238.18, 41.77%, 30.98%);
+
+    /* Gold */
+    --color-gold-100: hsl(40, 71.43%, 95.88%);
+    --color-gold-200: hsl(40, 68.18%, 82.75%);
+    --color-gold-300: hsl(39.77, 69.35%, 75.69%);
+    --color-gold-400: hsl(40, 69.49%, 65.29%);
+    --color-gold-500: hsl(40.14, 69.16%, 58.04%);
+    --color-gold-600: hsl(40.19, 49.76%, 40.59%);
+    --color-gold-700: hsl(40.67, 50%, 35.29%);
+
+    /* Red */
+    --color-red-100: hsl(354, 41.67%, 95.29%);
+    --color-red-200: hsl(351.63, 44.33%, 80.98%);
+    --color-red-300: hsl(352, 43.48%, 72.94%);
+    --color-red-400: hsl(351.63, 43.43%, 61.18%);
+    --color-red-500: hsl(351.92, 43.7%, 53.33%);
+    --color-red-600: hsl(351.78, 38.22%, 37.45%);
+    --color-red-700: hsl(351.56, 38.55%, 32.55%);
+
+    /* Fixed colours */
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+/* Weight Overrides */
+.fw-regular {
+    font-weight: var(--font-weight-regular);
+}
+
+.fw-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.fw-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+/* Titles: Space Grotesk, bold */
+.title-3xl {
+    font: var(--font-weight-bold) var(--font-size-4xl)/var(--line-height-40) var(--font-family-title);
+}
+
+.title-2xl {
+    font: var(--font-weight-bold) var(--font-size-3xl)/var(--line-height-48) var(--font-family-title);
+}
+
+.title-xl {
+    font: var(--font-weight-bold) var(--font-size-2xl)/var(--line-height-40) var(--font-family-title);
+}
+
+.title-lg {
+    font: var(--font-weight-bold) var(--font-size-xl)/var(--line-height-32) var(--font-family-title);
+}
+
+.title-md {
+    font: var(--font-weight-bold) var(--font-size-md)/var(--line-height-24) var(--font-family-title);
+}
+
+.title-base {
+    font: var(--font-weight-bold) var(--font-size-base)/var(--line-height-24) var(--font-family-title);
+}
+
+/* Body: Inter, regular */
+.body-lg {
+    font: var(--font-weight-regular) var(--font-size-lg)/var(--line-height-24) var(--font-family-body);
+}
+
+.body-md {
+    font: var(--font-weight-regular) var(--font-size-md)/var(--line-height-24) var(--font-family-body);
+}
+
+.body-base {
+    font: var(--font-weight-regular) var(--font-size-base)/var(--line-height-24) var(--font-family-body);
+}
+
+.body-caption {
+    font: var(--font-weight-regular) var(--font-size-caption)/var(--line-height-16) var(--font-family-body);
+}
